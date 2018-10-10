@@ -26,14 +26,18 @@ class Angajati:
     return 'Numarul angajatilor a fost {}, iar acum este {}'.format(numar_angajati_actual, self.numar_angajati)
 
 
-angajat1 = Angajati("olaru", "dragos", 1000)
+angajat1 = Angajati("Olaru", "Dragos", 1000)
 angajat2 = Angajati("test", "testut", 2000)
 
 angajat1.da_prema(5)
 print (angajat1.afiseaza_angajat())
+
 angajat2.da_prema(20)
 print (angajat2.afiseaza_angajat())
+
 angajat3 = Angajati("costel", "lover", 2500)
 
+
 print (Angajati.numar_angajati)
+
 print (Angajati.concediaza(angajat3))
