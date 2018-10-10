@@ -11,7 +11,7 @@ class Angajati:
     Angajati.numar_angajati += 1
 
   def da_prema(self, prema):
-    self.salar = self.salar + self.salar * prema / 100 + 50  # am adaugat 50 de dragul branch-ului
+    self.salar = self.salar + self.salar * prema / 100
     return self.salar
 
   def afiseaza_angajat(self):
